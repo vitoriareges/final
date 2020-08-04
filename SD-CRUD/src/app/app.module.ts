@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 
@@ -22,6 +23,7 @@ import { LoginLayoutComponent } from './layout/login-layout/login-layout.compone
   ],
   imports: [
     BrowserModule,
+    AppRoutingModule,
      AngularFireModule.initializeApp(environment.firebase)
   ],
   providers: [],
