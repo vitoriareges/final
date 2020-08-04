@@ -5,10 +5,20 @@ import { AppComponent } from './app.component';
 
 import { AngularFireModule } from '@angular/fire';
 import { environment } from '../environments/environment';
+import { FooterComponent } from './core/footer/footer.component';
+import { NavbarComponent } from './core/navbar/navbar.component';
+import { DashboardComponent } from './core/dashboard/dashboard.component';
+import { HomeLayoutComponent } from './layout/home-layout/home-layout.component';
+import { LoginLayoutComponent } from './layout/login-layout/login-layout.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FooterComponent,
+    NavbarComponent,
+    DashboardComponent,
+    HomeLayoutComponent,
+    LoginLayoutComponent
   ],
   imports: [
     BrowserModule,
